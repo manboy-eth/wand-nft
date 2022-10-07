@@ -372,6 +372,7 @@ contract Conjuror is IConjuror {
   function stoneList() internal pure returns (Cauldron.Stone[29] memory) {
     return [
       Cauldron.Stone({
+        name: "Tyrolite",
         fractalNoise: false,
         turbFreqX: 2,
         turbFreqY: 1,
@@ -388,6 +389,7 @@ contract Conjuror is IConjuror {
         rotation: 218
       }),
       Cauldron.Stone({
+        name: "Sugilite",
         fractalNoise: false,
         turbFreqX: 2,
         turbFreqY: 2,
@@ -404,6 +406,7 @@ contract Conjuror is IConjuror {
         rotation: 216
       }),
       Cauldron.Stone({
+        name: "Uranospinite",
         fractalNoise: false,
         turbFreqX: 2,
         turbFreqY: 4,
@@ -420,6 +423,7 @@ contract Conjuror is IConjuror {
         rotation: 21
       }),
       Cauldron.Stone({
+        name: "Viseite",
         fractalNoise: false,
         turbFreqX: 8,
         turbFreqY: 7,
@@ -436,6 +440,7 @@ contract Conjuror is IConjuror {
         rotation: 43
       }),
       Cauldron.Stone({
+        name: "Langite",
         fractalNoise: false,
         turbFreqX: 6,
         turbFreqY: 3,
@@ -452,6 +457,7 @@ contract Conjuror is IConjuror {
         rotation: 43
       }),
       Cauldron.Stone({
+        name: "Lepidolite",
         fractalNoise: false,
         turbFreqX: 6,
         turbFreqY: 3,
@@ -468,6 +474,7 @@ contract Conjuror is IConjuror {
         rotation: 310
       }),
       Cauldron.Stone({
+        name: "Huemulite",
         fractalNoise: false,
         turbFreqX: 2,
         turbFreqY: 2,
@@ -484,6 +491,7 @@ contract Conjuror is IConjuror {
         rotation: 114
       }),
       Cauldron.Stone({
+        name: "Bunsenite",
         fractalNoise: false,
         turbFreqX: 0,
         turbFreqY: 4,
@@ -500,6 +508,7 @@ contract Conjuror is IConjuror {
         rotation: 56
       }),
       Cauldron.Stone({
+        name: "Serandite",
         fractalNoise: false,
         turbFreqX: 5,
         turbFreqY: 3,
@@ -516,6 +525,7 @@ contract Conjuror is IConjuror {
         rotation: 86
       }),
       Cauldron.Stone({
+        name: "Petterdite",
         fractalNoise: false,
         turbFreqX: 2,
         turbFreqY: 2,
@@ -532,6 +542,7 @@ contract Conjuror is IConjuror {
         rotation: 43
       }),
       Cauldron.Stone({
+        name: "Bottinoite",
         fractalNoise: false,
         turbFreqX: 7,
         turbFreqY: 2,
@@ -548,6 +559,7 @@ contract Conjuror is IConjuror {
         rotation: 69
       }),
       Cauldron.Stone({
+        name: "Augelite",
         fractalNoise: false,
         turbFreqX: 3,
         turbFreqY: 3,
@@ -564,6 +576,7 @@ contract Conjuror is IConjuror {
         rotation: 43
       }),
       Cauldron.Stone({
+        name: "Pascoite",
         fractalNoise: false,
         turbFreqX: 1,
         turbFreqY: 4,
@@ -580,6 +593,7 @@ contract Conjuror is IConjuror {
         rotation: 244
       }),
       Cauldron.Stone({
+        name: "Jarosite",
         fractalNoise: false,
         turbFreqX: 3,
         turbFreqY: 9,
@@ -596,6 +610,7 @@ contract Conjuror is IConjuror {
         rotation: 43
       }),
       Cauldron.Stone({
+        name: "Pollucite",
         fractalNoise: true,
         turbFreqX: 4,
         turbFreqY: 7,
@@ -612,6 +627,7 @@ contract Conjuror is IConjuror {
         rotation: 306
       }),
       Cauldron.Stone({
+        name: "Andradite",
         fractalNoise: false,
         turbFreqX: 16,
         turbFreqY: 9,
@@ -628,6 +644,7 @@ contract Conjuror is IConjuror {
         rotation: 329
       }),
       Cauldron.Stone({
+        name: "Allactite",
         fractalNoise: false,
         turbFreqX: 7,
         turbFreqY: 6,
@@ -644,6 +661,7 @@ contract Conjuror is IConjuror {
         rotation: 31
       }),
       Cauldron.Stone({
+        name: "Borcarite",
         fractalNoise: false,
         turbFreqX: 4,
         turbFreqY: 0,
@@ -660,6 +678,7 @@ contract Conjuror is IConjuror {
         rotation: 56
       }),
       Cauldron.Stone({
+        name: "Jouravskite",
         fractalNoise: false,
         turbFreqX: 1,
         turbFreqY: 4,
@@ -676,6 +695,7 @@ contract Conjuror is IConjuror {
         rotation: 48
       }),
       Cauldron.Stone({
+        name: "Murmanite",
         fractalNoise: true,
         turbFreqX: 34,
         turbFreqY: 6,
@@ -692,6 +712,7 @@ contract Conjuror is IConjuror {
         rotation: 75
       }),
       Cauldron.Stone({
+        name: "Kasolite",
         fractalNoise: true,
         turbFreqX: 8,
         turbFreqY: 2,
@@ -708,6 +729,7 @@ contract Conjuror is IConjuror {
         rotation: 295
       }),
       Cauldron.Stone({
+        name: "Olmiite",
         fractalNoise: true,
         turbFreqX: 6,
         turbFreqY: 2,
@@ -724,6 +746,7 @@ contract Conjuror is IConjuror {
         rotation: 304
       }),
       Cauldron.Stone({
+        name: "Ussingite",
         fractalNoise: true,
         turbFreqX: 3,
         turbFreqY: 5,
@@ -740,6 +763,7 @@ contract Conjuror is IConjuror {
         rotation: 37
       }),
       Cauldron.Stone({
+        name: "Haiweeite",
         fractalNoise: true,
         turbFreqX: 2,
         turbFreqY: 6,
@@ -756,6 +780,7 @@ contract Conjuror is IConjuror {
         rotation: 147
       }),
       Cauldron.Stone({
+        name: "Hematite",
         fractalNoise: true,
         turbFreqX: 7,
         turbFreqY: 5,
@@ -772,6 +797,7 @@ contract Conjuror is IConjuror {
         rotation: 35
       }),
       Cauldron.Stone({
+        name: "Dioptase",
         fractalNoise: true,
         turbFreqX: 5,
         turbFreqY: 4,
@@ -788,6 +814,7 @@ contract Conjuror is IConjuror {
         rotation: 242
       }),
       Cauldron.Stone({
+        name: "Ekaterinite",
         fractalNoise: true,
         turbFreqX: 17,
         turbFreqY: 9,
@@ -804,6 +831,7 @@ contract Conjuror is IConjuror {
         rotation: 190
       }),
       Cauldron.Stone({
+        name: "Purpurite",
         fractalNoise: true,
         turbFreqX: 4,
         turbFreqY: 4,
@@ -820,6 +848,7 @@ contract Conjuror is IConjuror {
         rotation: 2
       }),
       Cauldron.Stone({
+        name: "Zdenekite",
         fractalNoise: true,
         turbFreqX: 4,
         turbFreqY: 9,
